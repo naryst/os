@@ -1,0 +1,5 @@
+   43  grep -nr gcc /usr/bin/ | sort -r > ex1.txt
+   44  mkdir week1
+   45  mv ex1.txt week1/
+   46  cd week1/
+   47  history | tail -n 5  > ex2.txt

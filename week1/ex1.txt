@@ -1,0 +1,5 @@
+/usr/bin/h2xs:962:      my @styles = $Config{gccversion} ? qw(C++ C9X GNU) : qw(C++ C9X);
+/usr/bin/h2ph:731:    length($from_gcc) ? (split(' ', $from_gcc), $Config{usrinc}) : ($Config{usrinc});
+/usr/bin/h2ph:730:    my $from_gcc   = `LC_ALL=C $Config{cc} -v -E - < /dev/null 2>&1 | awk '/^#include/, /^End of search list/' | grep '^ '`;
+/usr/bin/h2ph:727:# non-GCC?) C compilers, but gcc uses additional include directories.
+/usr/bin/bashbug:31:CC="gcc"
