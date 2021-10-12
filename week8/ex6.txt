@@ -1,0 +1,1 @@
+8KB of the page size can be expressed by the 13 bits of the virtual adress (from 0 to 8191) and the remaining 3 bits of the 16 bits virtual address represents page number in the single level linear page table. So number of entries is 2^3 = 8. 
