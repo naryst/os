@@ -1,0 +1,10 @@
+intial hit/miss ratio is 1.079096045
+with 191 hits and 177 misses.
+If we would like to increase hit/miss ratio
+we should change some references which call miss.
+As we can see from the initial output of the program
+8 last calls of the references cause swapping and return 0.
+and if we change them to the same reference as the previous 
+we will recive hit from this calls. So new hit/miss ratio will be 1.177514793
+with 199 hits and 169 misses.
+

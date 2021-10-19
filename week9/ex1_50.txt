@@ -1,0 +1,2 @@
+hit/miss ratio: 1.944000000
+hits - 243, misses - 125
