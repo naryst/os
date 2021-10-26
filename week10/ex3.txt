@@ -1,0 +1,3 @@
+660 for ex3.txt means that user and group have read and write permissions.
+770 for ex3.txt means that user and group have read, write and execute permissions. Others have read and write permissions.
+777 for ex3.txt means that user, group and oters have read, write and execute permissions.
