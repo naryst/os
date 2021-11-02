@@ -1,0 +1,2 @@
+.. lib64 file2 lost+found ex2.out bin file1 . usr 
+proc var etc opt tmp personal mnt lib lost+found boot bin srv root .. home sbin dev run lib64 sys . version usr 

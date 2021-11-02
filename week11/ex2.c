@@ -8,8 +8,9 @@ int main()
     DIR *dr = opendir("/");
   
     while ((de = readdir(dr)) != NULL)
-            printf("%s\n", de->d_name);
+            printf("%s ", de->d_name);
   
     closedir(dr);    
+    printf("\n");
     return 0;
 }
