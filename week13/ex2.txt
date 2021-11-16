@@ -1,0 +1,24 @@
+recovery strategy:
+This strategy have 3 possible realizations:
+    -Preemption
+    -Rollback
+    -Killing process
+All this realizations have some limitattions:
+1)preemprions highly depends on the nature of the resource. In some casess we can't temporarily take resource away from its current owner.
+2)While rolling back restarted process may trie to acquire the missng  resource again and in that case it should wait until the resource is available.
+3)Killing the process may be unsafe in some cases. So, to do it you should chose the process, that can rerun without any ill effects. 
+
+Deadlock avoidness strategy:
+This strategy is not always possible. To avoid deadlocks the system must be able to decide whether granting a resource is
+safe or not and make the allocation only when it is safe.
+
+Deadlock prevention strategy:
+we can prevent the future deadlocks only if we can be sure that all the conditions bellow is never satisfied:
+1)Mutual-Exclusion
+2)Hold-and-Wait
+3)No-Preemption
+4)Circular wait
+
+If deadlock avoidness is possible it is the best strategy, because it will not cause any ill effects. 
+If we can met all the conditions of the deadlock prevention it's better to use it.
+And only if we can not apply 2 another strategy we should handle deadlock. It may cause some problems in the system, so we should use recovery strategy only as a last resort
